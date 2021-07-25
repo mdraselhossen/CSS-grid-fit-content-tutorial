@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css Grid tutorial</title>
+	<style type="text/css">
+		.continer{
+			background-color: lightgray;
+			width: 50%;
+			margin: 50px auto 0;
+
+			display: grid;
+			grid-template-columns: fit-content(150px) fit-content(200px) 1fr;
+			grid-template-rows: repeat(2,minmax(200px,1fr));
+		}
+		.item-1{background-color: yellow;}
+		.item-2{background-color: green;}
+		.item-3{background-color: blue;}
+		.item-4{background-color: red;}
+	</style>
+</head>
+<body>
+	<div class="continer">
+		<div class="item-1">one In this tutorial you will learn css fit-content values in Hindi, Urdu.You can learn how to make shrinkable and maximum expandable element width with this new CSS3 property value fit-content. In this tutorial you will learn css fit-content values in Hindi, Urdu.You can learn how to make shrinkable and maximum expandable element width with this new CSS3 property value fit-content.</div>
+		<div class="item-2">two In this tutorial you will learn css fit-content values in Hindi, Urdu.You can learn how to make shrinkable and maximum expandable element width with this new CSS3 property value fit-content. In this tutorial you will learn css fit-content values in Hindi, Urdu.You can learn how to make shrinkable and maximum expandable element width with this new CSS3 property value fit-content.</div>
+		<div class="item-3">three</div>
+		<div class="item-4">four</div>
+	</div>
+</body>
+</html>
